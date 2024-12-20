@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0E0523;
+  padding: 10px 50px;
+  color: white;
+  
+}
+
+.logo img {
+  height: 40px;
+}
+
+.search-container {
+  flex-grow: 1;
+  margin: 0 20px;
+  text-align: center;
+  
+}
+
+.search-bar {
+  width: 500px; 
+  padding: 8px; 
+  border: 1px solid rgba(255, 255, 255, 0.5); 
+  border-radius: 5px;
+  background-color: transparent; 
+  color: white; 
+  outline: none; 
+}
+
+.auth-buttons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.login, .signup {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login {
+  background-color: #4CAF50; 
+  color: white;
+}
+
+.signup {
+  background-color: #008CBA; 
+  color: white;
+}
+
+.burger-menu {
+  position: relative;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0; 
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  overflow: hidden; }
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.burger-menu:hover .dropdown-content {
+  display: block;}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.show {
+  display: block;
+}

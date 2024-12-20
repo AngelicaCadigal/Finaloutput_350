@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/featured artist.css">
+    <link rel="stylesheet" href="css/Hashtags.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/misc.css">
+    <title>Navigation Bar</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="img/COMET_LOGO_1.png" alt="Logo" />
+        </div>
+        <div class="search-container">
+            <input type="text" placeholder="Search..." class="search-bar" />
+        </div>
+        <div class="auth-buttons">
+            <button class="login">Login</button>
+            <button class="signup">Sign Up</button>
+            <div class="burger-menu" onclick="toggleDropdown()">
+                &#9776;
+                <div class="dropdown-content" id="dropdown">
+                    <a href="Settings">Settings</a>
+                    <a href="Account">Account</a>
+                    <a href="Post">Post</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <script>
+        function toggleDropdown() {
+            document.getElementById("dropdown").classList.toggle("show");
+        }
+
+        
+    </script>
+
+<div class="featured-container">
+
+    <div class="featured-artists">
+        <h2>FEATURED ARTIST</h2>
+        <div class="scroll-buttons">
+            <button class="scroll-left" onclick="scrollLeft()">&#9664;</button>
+            <button class="scroll-right" onclick="scrollRight()">&#9654;</button>
+        </div>
+        <div class="scrollable-container">
+            <div class="artist-card">
+                <img src="img/arcane style study.png" alt="Artist 1">
+            </div>
+            <div class="artist-card">
+                <img src="img/side.png" alt="Artist 2">
+            </div>
+            <div class="artist-card">
+                <img src="img/Gun.jpg" alt="Artist 3">
+            </div>
+            <div class="artist-card">
+                <img src="img/persona.jpg" alt="Artist 4">
+            </div>
+            <div class="artist-card">
+                <img src="img/rawr.jpg" alt="Artist 5">
+            </div>
+            <div class="artist-card">
+                <img src="img/COMO_present.png" alt="Artist 6">
+            </div>
+            <div class="artist-card">
+                <img src="img/Sunset_2.png" alt="Artist 7">
+            </div>
+            <div class="artist-card">
+                <img src="img/moth.png" alt="Artist 8">
+            </div>
+            <div class="artist-card">
+                <img src="img/warcraft.jpg" alt="Artist 9">
+            </div>
+            <div class="artist-card">
+                <img src="img/chracter design.jpg" alt="Artist 10">
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="categories">
+    <h2>CATEGORIES</h2>
+    <div class="category-row">
+        <div class="category">
+            <div class="image-container">
+                <img src="img/inktober.png" class="default-image">
+                <img src="img/inktober.png" alt="Category 1 Large" class="hover-image">
+                <div class="overlay"><p>#Inktober</p></div>
+            </div>
+        </div>
+        <div class="category">
+            <div class="image-container">
+                <img src="img/YCH.jpg" alt="Category 2" class="default-image">
+                <img src="img/YCH.jpg" alt="Category 2 Large" class="hover-image">
+                <div class="overlay"><p>#YCH</p></div>
+            </div>
+        </div>
+        <div class="category">
+            <div class="image-container">
+                <img src="img/dtiys.jpg" alt="Category 3" class="default-image">
+                <img src="img/dtiys.jpg" alt="Category 3 Large" class="hover-image">
+                <div class="overlay"><p>#DTIYS</p></div>
+            </div>
+        </div>
+        <div class="category">
+            <div class="image-container">
+                <img src="img/huevember.jpg" alt="Category 4" class="default-image">
+                <img src="img/huevember.jpg" alt="Category 4 Large" class="hover-image">
+                <div class="overlay"><p>#Huevember</p></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="COMO-section">
+    <h2>The COMetverse</h2>
+    <div class="COMO-grid">
+        <div class="COMO">
+            <img src="img/book.jpg" alt="COMO 1">
+        </div>
+        <div class="COMO">
+            <img src="img/tobi-1.jpg" alt="COMO 2">
+
+        </div>
+        <div class="COMO">
+            <img src="img/Gun.jpg" alt="COMO 3">
+        </div>
+        <div class="COMO">
+            <img src="img/side.png" alt="COMO 4">
+        </div>
+        <div class="COMO">
+            <img src="img/Sunset_2.png" alt="COMO 5">
+
+        </div>
+        <div class="COMO">
+            <img src="img/chracter design.jpg" alt="COMO 6">
+
+        </div>
+        <div class="COMO">
+            <img src="img/tobi-10.jpg" alt="COMO 7">
+
+        </div>
+        <div class="COMO">
+            <img src="img/tobi-14.jpg" alt="COMO 8">
+        </div>
+        <div class="COMO">
+            <img src="img/tobi-16.jpg" alt="COMO 9">
+
+        </div>
+        <div class="COMO">
+            <img src="img/tobi-16.jpg" alt="COMO 10">
+
+        </div>
+        <div class="COMO">
+            <img src="img/tobi-17.jpg" alt="COMO 11">
+
+        </div>
+        <div class="COMO">
+            <img src="img/tobi-20220822.jpg" alt="COMO 12">
+
+        </div>
+        <div class="COMO">
+            <img src="img/tobi-22.jpg" alt="COMO 13">
+
+        </div>
+        <div class="COMO">
+            <img src="img/tobi-24.jpg" alt="COMO 14">
+
+        </div>
+        <div class="COMO">
+            <img src="img/tobi-25.jpg" alt="COMO 15">
+
+        </div>
+        <div class="COMO">
+            <img src="img/tobi-26.jpg" alt="COMO 16">
+
+        </div>
+        <div class="COMO">
+            <img src="img/tobi-30.jpg" alt="COMO 17">
+
+        </div>
+        <div class="COMO">
+            <img src="img/tobi-33.jpg" alt="COMO 18">
+
+        </div>
+        <div class="COMO">
+            <img src="img/tobi-44.jpg" alt="COMO 19">
+
+        </div>
+        <div class="COMO">
+            <img src="img/tobi-33.jpg" alt="COMO 20">
+
+        </div>
+    </div>
+</div>
+
+<footer class="footer-section">
+    <p>&copy; 2024 COMO. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
